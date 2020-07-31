@@ -7,6 +7,15 @@
 </head>
 <body>
     <?php
+    
+    class Ape{
+        public $suara = "Auooo";
+
+        public function yell() {
+            echo $this -> suara;
+        } 
+    }
+    
     $sungokong = new Ape("kera sakti");
     $sungokong->yell() // "Auooo"
     ?>
